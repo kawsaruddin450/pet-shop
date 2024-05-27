@@ -20,13 +20,34 @@
 </head>
 
 <body>
-    <header class="bg-[url('images/dog-3.jpg')] bg-cover">
-        <section class="banner lg:container mx-auto px-7 py-7 md:py-32 md:px-20">
-            <div class="md:w-1/2 text-center">
-                <h1 class="text-white uppercase text-6xl font-semibold">Summer sale is going on!</h1>
-                <h2 class="text-white text-8xl">30%</h2>
-                <button class="font-bold text-xl py-5 px-8 bg-slate-100 rounded-xl text-slate-800 mt-5">Shop
-                    Now</button>
+    <header class="">
+        <nav class="lg:container mx-auto py-5">
+            <div class="flex flex-col md:flex-wrap lg:flex-nowrap md:flex-row items-center justify-center lg:justify-between gap-y-6">
+                <h2 class="text-slate-800 font-medium text-4xl">Pet Friendly</h2>
+                <ul class="list-none text-2xl text-slate-700 flex items-center gap-8">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="flex items-center gap-4">
+                    <ul class="list-none flex text-2xl text-slate-700 items-center gap-7">
+                        <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                        <li><a href="#"><i class="fa-regular fa-bell"></i></a></li>
+                        <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                    </ul>
+                    <input type="text" placeholder="Search" class="text-xl m-0 rounded px-2 border-2 border-slate-500">
+                </div>
+            </div>
+        </nav>
+        <section class="banner px-7 py-7 md:py-32 md:px-20 bg-[url('images/dog-3.jpg')] bg-cover">
+            <div class="lg:container mx-auto">
+                <div class="md:w-1/2 text-center">
+                    <h1 class="text-white uppercase text-6xl font-semibold">Summer sale is going on!</h1>
+                    <h2 class="text-white text-8xl">30%</h2>
+                    <button class="font-bold text-xl py-5 px-8 bg-slate-100 rounded-xl text-slate-800 mt-5">Shop
+                        Now</button>
+                </div>
             </div>
         </section>
     </header>
@@ -119,27 +140,30 @@
                 <div class="p-7 sm:border-r-4 border-orange-400">
                     <p class="text-4xl text-center"><i class="fa-solid fa-award"></i></p>
                     <h3 class="text-center font-semibold text-3xl text-slate-800">35+ Awards</h3>
-                    <p class="text-center text-slate-600 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, harum?</p>
+                    <p class="text-center text-slate-600 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Deserunt, harum?</p>
                 </div>
                 <div class="p-7 sm:border-r-4 border-orange-400">
                     <p class="text-4xl text-center"><i class="fa-solid fa-award"></i></p>
                     <h3 class="text-center font-semibold text-3xl text-slate-800">35+ Awards</h3>
-                    <p class="text-center text-slate-600 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, harum?</p>
+                    <p class="text-center text-slate-600 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Deserunt, harum?</p>
                 </div>
                 <div class="p-7">
                     <p class="text-4xl text-center"><i class="fa-solid fa-award"></i></p>
                     <h3 class="text-center font-semibold text-3xl text-slate-800">35+ Awards</h3>
-                    <p class="text-center text-slate-600 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, harum?</p>
+                    <p class="text-center text-slate-600 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Deserunt, harum?</p>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="w-full mt-14 lg:mt-32 py-12 bg-orange-200">
+    <footer class="w-full mt-14 lg:mt-32 py-16 bg-orange-200">
         <section class="lg:container mx-auto">
-            <div class="grid sm:grid-cols-2 gap-y-8 lg:grid-cols-4 items-start justify-between">
+            <div class="grid sm:grid-cols-2 gap-y-8 lg:grid-cols-4 items-start justify-center sm:justify-between text-center sm:text-left">
                 <div>
                     <h2 class="font-medium text-4xl text-slate-900 mb-4">Pet friendly</h2>
-                    <ul class="flex items-center list-none gap-4 text-3xl">
+                    <ul class="flex items-center list-none justify-center gap-4 text-3xl">
                         <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
